@@ -36,9 +36,9 @@ EPUB generation uses the "bw" style (i.e., black and white.)
 
 = {doctitle}
 
-include::chapters/preface.asc[]
+include::prolog/preface.asc[]
 
-include::chapters/dedication.asc[]
+include::prolog/dedication.asc[]
 
 include::chapters/part_header.asc[]
 
@@ -46,21 +46,21 @@ include::chapters/book_thrills.asc[leveloffset=+1]
 
 include::chapters/jane.asc[leveloffset=+1]
 
-include::chapters/epigraph.asc[]
+include::epilog/epigraph.asc[]
 
-include::chapters/appendix.asc[]
+include::epilog/appendix.asc[]
 
-include::chapters/shortcuts.asc[]
+include::epilog/shortcuts.asc[]
 
-include::chapters/glossary.asc[]
+include::epilog/glossary.asc[]
 
-include::chapters/qanda.asc[]
+include::epilog/qanda.asc[]
 
-include::chapters/bibliography.asc[]
+include::epilog/bibliography.asc[]
 
-include::chapters/colophon.asc[]
+include::epilog/colophon.asc[]
 
 ifdef::backend-pdf[]
-include::chapters/index.asc[]
+include::epilog/index.asc[]
 endif::[]
 
